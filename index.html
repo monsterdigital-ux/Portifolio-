@@ -1,0 +1,724 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+ <title>Amanda Vieira- Web & Bakend Developer</title>
+ <meta name="title" content="Amanda Vieira- Web & bakend Developer">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="170" height="40" alt="Pfolio home">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#hero" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#serviços" class="navbar-link">Serviços</a>
+          </li>
+
+          <li>
+            <a href="#habilidades" class="navbar-link">Habilidades</a>
+          </li>
+
+          <li>
+            <a href="#portifolio" class="navbar-link">Portifolio</a>
+          </li>
+
+          <li>
+            <a href="#sobre" class="navbar-link">Sobre</a>
+          </li>
+          
+          <li>
+            <a href="#contato" class="navbar-link">Contato</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Amanda Vieira</h1>
+
+            <p class="hero-subtitle">
+             Designer & App Developer
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/hero-banner.jpg" width="800" height="800" alt="kane williams" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Olá, sou desenvolvedora e designer trabalho com sistemas, sites, aplicativos, e design gráfico.  
+            </p>
+
+              <a href="https://monsterdigital-ux.github.io/Curriculo/Amanda cv.pdf" download="Amanda cv.pdf">Download Currículo</a>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" id="serviços" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Serviços que ofereço
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Serviços</h2>
+            </div>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Aplicações Web e Desktop</h3>
+
+                  <p class="card-text">
+                    Sites, aplicativos mobile e sistemas para desktop, trabalho com as linguagens: Java e Python, e frontend (html, css, Javascript).
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my website design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="podium-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Marketing</h3>
+
+                  <p class="card-text">
+                    Como designer gráfico me conectei com a equipe da publicidade, obtive muito conhecimento em marketing, vendas online e 
+                    ferramentas como Google analitics, AWS, e marketplaces.
+                    
+                    
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="basket-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">eCommerce</h3>
+
+                  <p class="card-text">
+                    Além de desenvolver sites para eCommerce, 
+                    também tenho conhecimento com marketplaces e plataformas integradas.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my eCommerce service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Design Grafico</h3>
+
+                  <p class="card-text">
+                    Design para todos, do simples ao mais sofisticado misturando branding, briefing, cores e formas.
+                    Meus parceiros são pacote adobe e Corel draw, e amor pelo que faço.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="megaphone-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Marketing Digital</h3>
+
+                  <p class="card-text">
+                    Como designer e desenvolvedora entendo a importância do marketing digital, 
+                    que com o avanço da tecnologia vem ganhando mais
+                    espaço, promovendo a conexão e engajamento de clientes e parceiros.
+                  </p>
+
+                  <span class="text-lg card-number">05</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Digital Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Social Media</h3>
+
+                  <p class="card-text">
+                    Desenvolvo artes para postagens, motion graphics, edição de videos, fotos e efeitos vfx,
+                    com toda minha bagagem de 8 anos de designer gráfico faço o meu melhor 
+                    com amor e carinho a cada traço.
+                
+                  </p>
+
+                  <span class="text-lg card-number">06</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="habilidades" aria-label="our skills">
+        <div class="container">
+
+          <p class="section-subtitle">Eu faço o futuro</p>
+
+          <h2 class="h2 section-title">Eu desenvolvo e crio o futuro digital..</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+                Transformar o mundo digital com criatividade e inovação, 
+                utilizando habilidades técnicas e 
+                empatia para criar soluções e gerar boas experiências.
+              </p>
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Design</p>
+
+                    <data class="progress-value" value="90">90%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Branding</p>
+
+                    <data class="progress-value" value="80">80%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 80%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Web Design</p>
+
+                    <data class="progress-value" value="95">95%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 95%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Developer</p>
+
+                    <data class="progress-value" value="85">85%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 85%;"></div>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio" id="portifolio" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Meus trabalhos</p>
+
+            <h2 class="h2 section-title">Portfolio</h2>
+          </div>
+
+          <p class="section-text">
+            De sistemas a manipulação de imagens no photoshop,
+            diagramação, branding e web site.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-1.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Java</h3>
+
+                  <p class="card-text">Sistema Cadastro( Crud)</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-2.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">eCommerce</h3>
+
+                  <p class="card-text">vitrine digital</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-3.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Pagina de Pedidos</h3>
+
+                  <p class="card-text">Site de loja</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-4.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">3D art</h3>
+
+                  <p class="card-text">Modelagem e computação gráfica</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-5.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Diagramação</h3>
+
+                  <p class="card-text">Branding / Design</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-6.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Photoshop</h3>
+
+                  <p class="card-text">Manipulação / Mockups</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="sobre" aria-labelledby="blog-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="blog-label">Sobre mim</p>
+
+          <h2 class="h2 section-title">Profissional</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                  <img src="./assets/images/blog-1.jpg" width="700" height="470" loading="lazy"
+                    alt="Get Started With Tiktok Ads." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2010-06-02">
+                    <span class="span text-lg">08</span>
+                  </time>
+
+                  <div>
+                    <h3 class="h3 card-title">Minha trajetória</h3>
+
+                    <p class="card-text">
+                      Iniciei no mercado do design desde cedo, fiz muitos cursos na área trabalhei 
+                      com empresas de sublimação, têxtil e estamparia.
+                      Domino pacote Adobe e Corel draw, na tecnologia iniciei a 4 anos como pessoa programadora, 
+                      assim aplico ambos os conhecimentos para obter os melhores resultados.
+                    </p>
+
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                  <img src="./assets/images/blog-2.jpg" width="700" height="470" loading="lazy"
+                    alt="UX in Ecommerce – 5 things to avoid." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="1995-08-25">
+                    <span class="span text-lg">25</span>
+                  </time>
+
+                  <div>
+                    <h3 class="h3 card-title">Persona</h3>
+
+                    <p class="card-text">
+                     Comunicativa, apaixonada pelo que faço, busco evoluir em todos os aspectos,
+                      sou amante de arte e tecnologia, desde a infância fizeram parte da minha
+                      vida e hoje são minhas maiores paixões.
+                    </p>
+
+                    <a href="#" class="btn has-before">
+                      <span class="span">Subir</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="contato">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Entre em contato</p>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="#" class="footer-link">Blumenau-Santa Catarina</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.instagram.com/canal.java?igsh=MWo2c2U5M3FsYTMxeA==" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/Canal-Java" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://youtube.com/@canal_java?si=eej75fs8Qju2UL2f" class="social-link">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://api.whatsapp.com/send?phone=5547996703295&text=Gostaria de mais informações" class="social-link">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
